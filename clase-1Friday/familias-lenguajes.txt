@@ -1,0 +1,153 @@
+Familias de Lenguajes
+
+Lenguajes imperativos 
+   Hacer lo que yo le ordeno en el orden que yo le ordeno
+   Estrcuturados
+      functions o procedures que reciben parametros
+      estructuras de control:
+         if, while, for, switch, case
+
+Lenguajes funcionales
+   Hacer lo que yo le ordeno en el orden que se le canta
+   funciones
+
+Mainframe
+   Lisp lenguaje funcionales
+   Fortran lenguaje imperativo / estructurado
+
+javascript
+   Porque fue considerado un engendro mutante ?
+   estructurado
+   soporta objetos
+   es funcionales
+
+-------------------------------------------------
+Los lenguajes son abstracciones
+-------------------------------------------------
+Tipicamente, el sistema operativo tiene operaciones
+de I/O. estas operaciones se realizan en rutinas,
+hilos, threads, dispositivos diferentes.
+
+Lo comun es que el api/sdk del sistema operativo
+sea asincrónico, es decir, yo le mando a escribir,
+y sigo haciendo otra cosa, cuando hubo terminado de 
+escribir, me avisa.
+
+uno()
+dos()
+tres()
+escribir en red()
+cuatro
+cinco
+seis
+----Interrume un evento que es (termine de escribir).
+
+Sobre las sdk/api del sistema operativo estan montados
+los legnuajes de programacion.
+
+De que me sirve un lenguaje si no puedo interactuar
+con disco, red, usb ?
+
+-------------------------------------------------
+Los lenguajes son abstracciones
+-------------------------------------------------
+Abstraccion sincronica.
+
+Lenguajes c#, java, cobol, php
+
+paso1
+paso2
+pase3
+LeerDeLaRed()
+// cuando hubo terminado de leer, pasa al paso4. 
+paso4
+
+Abstraccion asincronica 
+
+Lenguajes c, javascript
+
+paso1
+paso2
+paso3
+handler = LeerDeLaRed()
+paso4
+paso5
+if (handler esta leido ?) si me da true ya
+puedo procesar el leer de la red.
+
+javascript me expone un hilo.
+
+paso1
+paso2
+paso3
+leerDeLaRed(function() {
+    // esta funcion se va a llamar cuando
+    // ya haya leido de la red.
+});
+
+-------------------------------------------------
+Optimizaciones de los lenguajes de programacion
+Sugar Syntaxt
+Azucar sintáctico
+-------------------------------------------------
+var arr = [2,3,4,5,6,6];
+for (var idx=0; idx < arr.length; idx++) {
+   console.log(arr);
+}
+
+var arr = [2,3,4,5,6,6];
+for (let elemento of arr) {
+   console.log(elemento);
+}
+
+llamarFuncion((a,b) => a+b);
+
+let fn = function(a,b) { return a+b };
+
+en c, no se si siempre existio el operador de acumulacion
+o se invento luego de que 10000 hicieran a = a + b;
+que es a+=b;
+
+-------------------------------------------------
+Una de las cosas que vamos a ver es:
+-------------------------------------------------
+la keyword var que esta medio en decadencia
+pero la pueden llegar a encontrar.
+porque ahi el scope no es el mismo que let y const
+tampoco el this.
+
+-------------------------------------------------
+               HTTP SERVER
+-------------------------------------------------
+Conmutacion de paquetes.
+Red IP
+
+Un paquete es un conjunto de bits que viajan de Una
+placa de red a otra placa de red.
+
+Este escalon o nivel se lo denomina nivel 1. Fisico.
+Como saber cuando arranca y termina un paquete. 
+Esto se lo llama nivel 2. nivel de enlace.
+Rutas alternativas, es decir un paquete puede 
+eventualmente viajar por diferentes rutas.
+Nivel 3 o nivel IP. Routers.
+
+Problema que trae ? es que los paquetes llegan
+desordenados. Entonces hay un protocolo (capa 4)
+TCP. TCP/IP.
+
+La capa siguiente, es un protocolo basado en texto 
+plano, que se llama HTTP.
+
+-------------------------------------------------
+Cloud services
+-------------------------------------------------
+
+Infraestructure as a service
+  Amazon AWS
+  Digital Ocean
+  Atlantic
+Platform as a service
+  Amazon AWS lambda
+  Heroku
+

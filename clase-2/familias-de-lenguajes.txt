@@ -1,0 +1,65 @@
+Familias de Lenguajes:
+
+-Lenguajes imperativos: hacen lo que les ordenamos en el orden indicado.
+   Estructurados
+   functions o procedures que reciben parametros, estructuras de control: if, while, for, switch, case.
+
+-Lenguajes funcionales: hacen lo que les prdenamos en el orden que mejor les parezca.
+    funciones
+
+-Mainframe:
+    Lisp lenguajes funcionales
+    Fortran lenguaje imperativo / estructurado
+
+-JavaScript:
+    Estructurado
+    Soporta objetos
+    Funcional
+
+------------------------------------------------------------
+Los lenguajes son abstracciones
+-------------------------------------------------------------
+Tipicamente, el sistema operativo tiene operaciones de I/O. Estas operaciones se realizan en rutinas, hilos, threads, dispositivos diferentes.
+
+Lo comun es que el api/sdk del sistema operativo sea asincronico, es decir, yo le mando a escribir, y sigo haciendo otra cosa, cuando ha termionado de escribir, me avisa.
+
+uno()
+dos()
+tres()
+escribir en red()
+cuatro()
+----Interrumpe un evento (termine de escribir)
+
+Sobre las sdk/api del sistema operativo estan montados los lenguajes de programacion.
+
+----------------------------------------------------------
+Exportar: Siempre voy a exportar objetos o funcionalidades.
+----------------------------------------------------------
+HTTP SERVER : 
+Conmutacion de paquetes.
+Red IP
+
+Un paquete es un conjunto de bits que viajan de una placa de red a otra placa de red.
+
+Este escalon o nivel se lo denomina nivel 1. Fisico.
+Como saber cuando arranca y termina un paquete.
+Esto se lo llama nivel 2. nivel de enlace. Rutas alternativas, es decir un paquete puede eventualmente viajar por diferentes rutas. Nivel 3 o nivel IP. Routers [son los que determinan para que lado va un paquete]
+
+Probelma que trae? es que los paquetes llegan desordenados. Entonces hay un protocolo (capa 4) TCP. TCP/IP.
+
+La capa siguiente, es un protocolo basado en texto plano, que se llama HTTP.
+--------------------------------------------------
+Para hostear un server:
+-Infraestructure as a services
+ Amazon AWS
+ Digital Ocean.
+ Atlantic.net
+
+-Platform as a service (deploy)
+  Amazon 
+  Heroku
+----------------------------------------------
+	LINKS:
+Doc Faker: https://www.npmjs.com/package/faker
+
+Validador de datos JSON: https://jsonlint.com/

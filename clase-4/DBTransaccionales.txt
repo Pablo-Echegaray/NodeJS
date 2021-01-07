@@ -1,0 +1,152 @@
+>>>>SISTEMAS TRANSACCIONALES>>>>
+
+Transacción.
+Una transacción es un evento o proceso que genera o modifica la información que se encuentran eventualmente almacenados en un sistema de información. Según JAMRICH de 2008, es un intercambio entre dos partes que se registra y guarda en un sistema de equipos de cómputo. Como por ejemplo realizar una compra de mercancía o retirar efectivo de un cajero automático.
+
+
+Sistema de Información Transaccional
+Por sus siglas en inglés (TPS Transactions Processing System) un Sistema de Procesamiento de transacciones; es un sistema encargado de realizar registro de las operaciones y/o transacciones en forma permanente, automatizando las tareas y procesos operativos, adicionalmente este sistema de información está diseñado para recolectar, almacenar, modificar y recuperar todo tipo de información que es generada por las transacciones en una organización.
+
+Objetivo
+
+El objetivo de este sistema es, aumentar la productividad en tareas de tipo administrativo y capturar los datos relativos a las transacciones realizadas por la empresa con el fin de controlar las actividades del negocio.
+
+
+
+Ejemplos de funciones concretas de un Sistema Transaccional
+
+Un sistema transaccional debe controlar las transacciones para mantener la seguridad y consistencia de los datos involucrados. Por ejemplo, un cliente transfiere dinero de una cuenta a otra cuenta dentro de un mismo banco; la cantidad de dinero que se descuenta de la cuenta emisora debe ser igual a la que se suma en la cuenta receptora. De no ser así, la acción (transacción) no se realiza.
+Un sistema transaccional debe ser capaz de enmendar cualquier error ocurrido durante una transacción, pudiendo deshacer las operaciones realizadas, manteniendo los datos tal cual estaban antes del error.
+También debe ser capaz de controlar y administrar múltiples transacciones, determinando prioridades entre éstas. Por ejemplo, un cliente está haciendo la reserva de un asiento en un vuelo, dicho asiento debe ser bloqueado temporalmente hasta que se concrete la transacción, porque otro cliente podría estar queriendo reservar el mismo asiento en el mismo momento.
+
+
+Propiedades de los Sistema Transaccionales
+
+1. Automatizan tareas operativas en una organización, permitiendo ahorrar en personal.
+
+2. Suelen dirigirse especialmente al área de ventas, finanzas, marketing, administración y recursos humanos.
+
+3. Suelen ser los primeros sistemas de información que se implementan en una organización.
+
+4. Se suelen utilizar para cargar grandes bases de datos.
+
+5. Los beneficios de este tipo de sistemas en una organización son rápidamente visibles.
+
+6. Estos sistemas son optimizados para almacenar grandes volúmenes de datos, pero no para analizar los mismos.
+
+
+
+
+Propiedades para que la información sea válida
+
+Para asegurar la integridad de la información de la base de datos es que debe ser completamente procesada la transacción. Según GÓMEZ DE SILVA y ANIA BRISEÑO (2008).
+
+Existe también una teoría del procesamiento de transacciones (test ACID), que incluyen acciones a seguir para garantizar que el trabajo del usuario no interfiera con el otro.
+
+Las transacciones deben observar cuatro propiedades para asegurar que la información de una base de datos sea válida:
+
+· Atomicidad: que la transacción se debe ejecutar totalmente o no ejecutarse en absoluto.
+
+· Conservación de la coherencia: una ejecución correcta de la transacción debe llevar a la base de datos de un estado coherente a otro estado coherente (válido).
+
+· Aislamiento: Una transacción no debe hacer visibles sus actualizaciones de la base de datos a otras transacciones sino hasta que haya sido confirmada (terminada por completo).
+
+· Durabilidad: una vez que una transacción cambie a la base de datos y los cambios sean confirmados, éstos nunca deben perderse por fallas subsecuentes.
+
+
+
+Características esperables de un Sistema Transaccional
+
+Para que un sistema informático pueda ser considerado como un sistema transaccional, debe superar el test ACID.
+
+· Rapidez: deben ser capaces de responder rápidamente, en general la respuesta no debe ser mayor a un par de segundos.
+
+· Fiabilidad: deben ser altamente fiables, de lo contrario podría afectar a clientes, al negocio, a la reputación de la organización, etc. En caso de fallas, debe tener mecanismos de recuperación y de respaldo de datos.
+
+· Inflexibilidad: no pueden aceptar información distinta a la establecida. Por ejemplo, el sistema transaccional de una aerolínea debe aceptar reservas de múltiples agencias de viajes. Cada reserva debe contener los mismos datos obligatorios, con determinadas características.
+
+
+
+El Sistema de Información Transaccional se clasifica:
+
+1. Por ser la primera cara de una empresa con el usuario, sea éste último un trabajador del propio negocio o un cliente.
+
+2. Porque su funcionamiento es en línea y permite realizar las operaciones cotidianas del negocio.
+
+3. Por administrar las transacciones, por lo general en línea, captura la información que se produce y cuando ocurre una transacción, no la procesa sino que la entrega a otro sistema.
+
+4. Es la cara que ve el cliente (Front – End).
+
+
+Ventajas
+
+1. Es capaz de controlar y administrar múltiples transacciones, determinando las prioridades.
+
+2. Controlar las transacciones para mantener la seguridad y consistencia de los datos involucrados.
+
+3. Beneficios visibles y palpables.
+
+4. Automatizan tareas operativas de la organización.
+
+5. Se logran ahorros significativos de mano de obra, debido a que automatizan tareas operativas de la organización.
+
+6. Son el 1er tipo de S.I.T que se implanta en las organizaciones ya que empieza apoyando las tareas a nivel operativo de la organización.
+
+7. Tienen la propiedad de ser recolectores de información, a través de estos se cargan las grandes bases de información para su explotación posterior.
+
+8. Son fáciles de justificar ante la dirección general ya que sus beneficios son visibles y palpables.
+
+
+
+Desventajas
+
+
+1. Su principal desventaja es su limitación ya que su capacidad de generar informes es limitada. Ofrecen registros básicos lo cual es un problema para los administradores
+quienes necesitan informes más sofisticados para poder comprender y analizar los datos.
+
+2. Son intensivos en entradas y salidas de información, sus cálculos y procesos son poco sofisticados.
+
+
+
+Tipos de Sistemas Transaccionales
+
+
+Sistemas de ventas y marketing: son los que realizan transacciones referentes a administración de ventas, investigación de mercados, productos nuevos, sistema de comisiones por venta, fijación de precios.
+
+Sistemas de manufactura y producción: sistemas por los cuales se realiza programación, compras, sistemas de ingeniería, control de calidad, control de máquina.
+
+Sistemas de finanzas y contabilidad: por los cuales se realizan presupuestos, facturación, contabilidad de costos, cuentas por cobrar y pagar.
+
+Sistemas de recursos Humanos: a través de esto se registra el personal, se realiza la nómina, el expediente de los empleados.
+
+Otros tipos: cualquier organización se realicen transacciones automatizadas, por ejemplo un el sistema de una compañía de seguros.
+
+--------------------------------------------------------------
+
+¿Qué es una base de datos transaccionales?
+Una base de datos transaccionales es un sistema de gestión de base de datos relacionales (SGDBR) que funciona de manera asociada a una base de datos relacional. Su objetivo es asegurar que las transacciones dentro de la BDR se cumplan al 100% o, en su defecto, se reviertan. Es decir, no permite que las transacciones queden incompletas.
+
+Las bases de datos transaccionales se caracterizan por ejecutar grandes cantidades de transacciones a muy alta velocidad, ya que solo se encargan del envío y recepción de datos.
+
+Ejemplo de la funcionalidad de una base de datos transaccionales
+En cada transferencia bancaria se desarrollan dos operaciones distintas:
+
+Primero, se debita el dinero en la cuenta de origen.
+Segundo, se suma el dinero en la cuenta de destino.
+La base de datos transaccionales es la encargada de validar o deshacer dicha transferencia. Es decir, si ambas operaciones se completan, entonces la transferencia se registra como finalizada. Si la segunda operación falla, el dinero se devuelve a la cuenta de origen y la transferencia no se registra en la base de datos.
+
+En este sentido, el sistema gestor de base de datos evita que el dinero desaparezca ante cualquier error producido, pues garantiza que las dos operaciones se cumplan o no se cumpla ninguna.
+
+Ventajas de una base de datos transaccionales para tu empresa
+Las principales ventajas de una base de datos transaccionales son:
+
+Permite modificar la información sin poner en riesgo la integridad de los datos más sensibles del sistema.
+Asegura la integridad de los datos gracias a sus propiedades ACID.
+Brinda una gran capacidad de recuperar el historial de los datos almacenados, reduciendo al máximo el riesgo de pérdida de datos por fallas en el sistema.
+Organiza, estructura y optimiza los datos dentro de los almacenes de datos empresariales, facilitando así las consultas complejas.
+Ofrece datos actuales y en tiempo real necesarios para algunos tipos de análisis y posterior toma de decisiones tácticas.
+Ejecuta las operaciones con muy baja latencia. Es decir, su velocidad de procesamiento es bastante rápida.
+Realiza réplicas de base de datos de producción en tiempo real para actividades de monitoreo.
+Ayuda a capturar datos sobre el contexto histórico de cada operación, con el fin de facilitar los análisis posteriores.
+Posee un tamaño relativamente reducido en el caso de que se encargue de archivar datos históricos.
+Aumenta la consistencia del procesamiento de transacciones al integrarse con sistemas de analítica.

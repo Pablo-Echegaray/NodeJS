@@ -1,0 +1,105 @@
+Profesor Andy Vazquez.
+repositorio de github: https://github.com/arteysoft/
+email: arteysoft@gmail.com
+consola de comandos: https://cmder.net/
+para hacer servers: digitalocean, amazon, atlantic.
+gabriel alumno: gab.berger@gmail.com
+
+Conceptos a investigar:
+-Mainframe.
+-Threads.
+-Hilos.
+-Api/sdk del sistema operativo.
+-Handler.
+-Recursion.
+-Function as data.
+-Hoisting.
+-Router.
+-IP.
+-TCP/IP.
+-Deploy.
+-Programacion lineal.[assembler,basic]
+-Programacion estructurada.
+-Programacion funcional.[no existen variables, sino identificadores. Es muy comun el uso de constantes]
+-Programacion orientada a objetos.
+-Recursion basada en el stack.
+-cpanel.
+-PL/SQL.
+-[].join(' ').
+-backtick[alt+96].
+-Curl.
+-Postman.
+-typeof operador.
+-Glitch.
+-Handlebars.
+-Standard ports numbers.
+-jsonlint.com[json validator]
+==========================================
+Cloud Hosting: Amazon Web Service, Digital Ocean, Heroku.[instanciar un servidor]
+
+--Infraestructure as a service
+Amazon AWS
+Digital Ocean
+Atlantic
+--Platform as a service
+Amazon AWS lambda
+Heroku
+==========================================
+>>Operaciones de input/output<<
+link: https://sistemas.com/inputoutput.php#:~:text=Entrada%3A%20Son%20las%20se%C3%B1ales%20electr%C3%B3nicas,ser%20interpretados%20por%20el%20usuario.
+
+>>Threads<<
+link: https://es.wikipedia.org/wiki/Hilo_(inform%C3%A1tica)
+
+
+==========================================
+>>>COMANDOS de consola (cmder)>>>>
+>node --version : nos muestra la version actual de node instalada en nuestra ordenador.
+
+>path : indica en que lugar ha sido instalado node
+
+>node : luego de indicar el path, ejecutando este comando ya podremos acceder a la consola de node.
+
+>npm --version  : nos indica la version de nuestro manejador de paquetes(librerias,frameworks,etc)
+
+>npm init  : nos crea un archivo llamado "package.json", que es donde van a estar todas las dependencias(librerias).
+
+>cat package.json  : nos muestra el contenido del archivo en cuestion.
+
+>npm install nombreLibreria : agrega una dependencia
+
+>npm install underscore  : esta libreria nos genera una carpeta llamada node_modules donde van a estar todas las librerias.
+
+>npm install  : en caso que clonemos un proyecto de github a nuestro ordenador, ejecutando el comando asi sin especificar el nombre de una libreria, lo que hara sera bajarnos cada dependencia que necesitemos para trabajar con nuestro proyecto clonado.
+
+>touch nombreArchivo.extension : crea un nuevo archivo.
+
+>code .  : ingresa a nuestro editor de codigo y nos inserta la carpeta entera del proyecto con el cual vamos a comenzar a trabajar.
+
+>node nombreArchivo.extension  : nos muestra el contenido del archivo (ej un console.log)
+
+>cd \  : ir a la carpeta raiz.
+
+>node nombreArchivo.extension > salida.html  : en caso de tener un string con etiquetas html hacemos esto y obtenemos en el navegador el html.
+
+>mkdir \var\tmp\usuarios   : crea una ruta de directorio.
+
+>rm var\tmp\usuarios*  : 
+
+>algun texto > nombreArchivo.extension  : nos crea un archivo con el contenido de "algun texto".
+
+>archivo.js > salida.html  : nos crea un html que automaticamente se relaciona al script archivo.js.
+
+>rm -rf /Users/simon/.git  : el comando rm es el comando utilizado para borrar archivos y directorios, utilizado por si solo, sin modificadores lo que hace es borrar archivos individualmente, si le añades el modificador “r” borra recursivamente, esto quiere decir, si lo aplicas a un directorio borrara todo ese directorio y todo su contenido y si le aplicas el modificador “f” lo que hace es forzar el borrado ignorando cualquier aviso de confirmación.
+
+>rm nombreArchivo  :  borra el archivo especifico.
+
+>mv nombreActual must nuevoNombre  :  renombra un archivo existente.
+
+>man rm  : nos mostrara el manual de dicho comando(o cualquier otro que le indiques al comando “man”.
+
+>curl -v http://www.cronista.com  : visualizo los headers y toda la info del protocolo http.
+
+pagina 6 material del alumni.
+
+

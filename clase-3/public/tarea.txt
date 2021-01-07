@@ -1,0 +1,28 @@
+Tengo una pantalla que la sirve la aplicacion si apunto a la url http://127.0.0.1:3000/ Esta pantalla presenta una tabla de usuarios la cual debe ser cambiada por otra que sea la que sirve el servidor.
+
+Va a estar dada por:
+
+Desde JavaScript front => fetch('/usuario').then(x=>x.json()).then(x=>console.log(x));
+//ultimo then: x=>console.log(JSON.stringify(x)) para que nos venga en formato JSON.
+la respuesta a esato es un array
+[{ nombre: "Sofia", apellido: "Zapata" },{ nombre: "Vladi", apellido: "Echegaray" },];
+
+Este se debe mostrar en el index.html
+
+//--------------------------------
+
+Investigar el nodemon que es una libreria que hace que no tenga que parar y levantar el servicio de nodejs por cada cambio que realice. El nodemon lo hace automaticamente.
+//-------------------------------------
+
+POST con Postman => en la pestaña "body" marcar el checkbox "raw" y setear el texto en formato JSON. Colocar en forma de objeto el nuevo usuario en el body y enviar el pedido.
+
+//-----------------------------------
+CREAR BASE DE DATOS EN MYSQL
+1- Ejecutar XAMPP
+2- Iniciar APACHE y MYSQL
+3- Ir a localhost/phpMyAdmin
+4- crear database/nombreDataBase>crear/nombre-numero de columnas> go(continuar)
+5- Seleccionar el nombre de cada columna y el tipo de dato [varchar: para texto - int: para numeros]
+6- preview SQL: nos muestra el script SQL que podemos copiarlo para usarlo despues.
+7- Cerramos la ventana de "preview SQL"
+8- Vamos a la pestaña "SQL" y pegamos el script anteriormente copiado para probar si funciona.
